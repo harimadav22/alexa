@@ -21,6 +21,6 @@ def take_command():
 def run_alexa():
     Command = take_command()
     print(Command)
-    if'paly'in Command:
+    if'pla y'in Command:
         song=command.replace
 run_alexa()
